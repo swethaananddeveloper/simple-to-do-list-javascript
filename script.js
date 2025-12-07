@@ -4,15 +4,14 @@ document.querySelector('#push').onclick = function(){
         alert("Please enter a flask")
     }
     else{
-        document.querySelector('#tasks').innerHTML
-+= `
-        <div class = "task">
+        document.querySelector('#task').innerHTML
++= `     <div class = "task">
             <span id="taskname">
 ${document.querySelector ('#newtask input').value}
 
             </span>
             <button class="delete">
-            <i class="far fa-trash-alt" aria-hidden="true">
+          <i class="material-icons">
             </i>
             </button>
 
@@ -27,8 +26,8 @@ ${document.querySelector ('#newtask input').value}
     }
     
 var task = document.querySelectorAll(".task");
-for(var i=0; i<tasks.length;i++){
-    tasks[i].onclick =function(){
+for(var i=0; i<task.length;i++){
+    task[i].onclick =function(){
         this.classList.toggle('completed');
     }
 }

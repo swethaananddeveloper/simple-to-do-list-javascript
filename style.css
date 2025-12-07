@@ -50,7 +50,7 @@ body{
 #newtask button{
     position: relative;
     float: right;
-    width: 20px;
+    width: 60px;
     height: 45px;
     border-radius: 5px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -63,8 +63,8 @@ body{
 
 }
 
-#tasks{
-    background-color: white;
+#task{
+    background-color: rgb(238, 238, 238);
     padding: 30px 20px;
     margin-top: 60px;
     border-radius: 10px;
@@ -100,4 +100,4 @@ body{
 }
 .completed{
     text-decoration: line-through;
-} 
+}
