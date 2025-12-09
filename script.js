@@ -11,8 +11,7 @@ ${document.querySelector ('#newtask input').value}
 
             </span>
             <button class="delete">
-          <i class="material-icons">
-            </i>
+delete
             </button>
 
             </div>
